@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+    <link rel="stylesheet" href="./bibliotecas/css/bootstrap.min.css" />
+    <script src="./bibliotecas/js/bootstrap.min.js"></script>
+    <script src="./bibliotecas/jquery/dist/jquery.min.js"></script>
+    <style>
+    @media screen and (min-width:576px){
+        .carousel-inner{
+            display: flex;
+        }
+        .carousel-item{
+            display: block;
+            margin-right: 0;
+            flex: 0 0 calc(100%/2);
+        }
+    }
+    .carousel-inner{
+        padding: 1em;
+    }
+    .card{
+        margin: 0 .5rem;
+    }
+    </style>
+</head>
+<body>
+    <div id="home">
+        <div id="home-head">
+            <nav class="navbar navbar-light border" style="background-color: #fffafa; border-color: #faf0e6;">
+                <div class="container-fluid">
+                    <span class="navbar-text">
+                        <img src="./imagens/logo.PNG" class="img-fluid" alt="Imagem responsiva">
+                    </span>
+                    <form class="d-flex">
+                        <button type="button" class="btn btn-sm rounded-pill text-light" style="background-color: #486572; width: 100px;">Entrar</button>&nbsp;
+                        <button type="button" class="btn btn-sm rounded-pill text-light" style="background-color: #ff5757; width: 100px;">Cadastrar</button>&nbsp;
+                        <button type="button" class="btn btn-sm rounded-pill text-secondary" style="background-color: #fffafa; width: 100px; border-color: #faf0e6;">Fale Conosco</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <div id="home-body" style="padding-top: 5%; padding-left: 5%; padding-right: 5%;">
+            <div id="home-details" class="container-fluid" style="background-color: #faf0e9; border-radius: 40px;"><br><br>
+                <div class="row">
+                    <div class="col-12 col-lg-7 col-xl-7" style="padding-left: 3%;">
+                        <div class="col-12 col-lg-10 col-xl-10" >
+                            <h3 class="text-center" style="color: #486572;">O Food Great possui uma nova maneira de organizar<br>e compartilhar suas receitas e cardápios</h3>
+                            <p style="color: #737373;">A plataforma tem por objetivo possibilitar a criação de cardápios e receitas, tanto para empresas que pretendem deixar seu cardápio automatizado para seus clientes como também para usuários normais que pretendem descrever suas receitas ou até mesmo cardápios de dietas e afins.</p>
+                            <br>
+                            <button type="button" class="btn rounded-pill text-light" style="background-color: #03989e; color: #fffafa;">
+                                    <b>Clique para Entrar de forma Grátis</b>
+                            </button>&nbsp;
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 col-xl-5"><br>
+                        <img src="./imagens/esquema.PNG" style="border-radius: 40px;" class="img-fluid" alt="Imagem responsiva"><br><br><br>
+                    </div>
+                </div>
+            </div>
+            <div id="home-details-resource"><br><br>
+                <div class="carousel slide" id="myCarousel">
+                    <div class="carousel-inner" class="container-fluid" style="padding-top: 5%; padding-left: 10%; padding-right: 10%;">
+                        <div class="carousel-item active">
+                            <div class="card mb-3" style="background-color: #fffafa; border-radius: 40px; border-color: #faf0e6;"><br>
+                                <div class="row g-0">
+                                    <div class="col-md-4" style="padding-left: 4%;">
+                                        <img src="./imagens/livroReceitas.PNG" class="img-fluid rounded-start" alt="image">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="color: #486572;">Cadastre suas Receitas/Cardápios</h5>
+                                            <br>
+                                            <p class="card-text" style="color: #737373;">Com essa funcionalidade você poderá anotar suas receitas, inserir imagens e até mesmo classifica-las..</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card mb-3" style="background-color: #fffafa; border-radius: 40px; border-color: #faf0e6;"><br>
+                                <div class="row g-0">
+                                    <div class="col-md-4" style="padding-left: 4%;">
+                                        <img src="./imagens/pasta.PNG" class="img-fluid rounded-start" alt="image">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="color: #486572;">Organize suas Receitas/Cardápios</h5>
+                                            <br>
+                                            <p class="card-text" style="color: #737373;">Com essa funcionalidade você poderá organizar suar receitas de acordo com uma classificação.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card mb-3" style="background-color: #fffafa; border-radius: 40px; border-color: #faf0e6;"><br>
+                                <div class="row g-0">
+                                    <div class="col-md-4" style="padding-left: 4%;">
+                                        <img src="./imagens/organizar.png" class="img-fluid rounded-start" alt="image"><br>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="color: #486572;">Compartilhe suas Receitas/Cardápios</h5>
+                                            <br>
+                                            <p class="card-text" style="color: #737373;">Com essa funcionalidade você poderá compartilhar suas receitas/cardápios que possuem status como “pública” para que outras pessoas possam visualiza-las.</p>
+                                        </div>
+                                    </div>
+                                </div><br>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card mb-3" style="background-color: #fffafa; border-radius: 40px; border-color: #faf0e6;"><br>
+                                <div class="row g-0">
+                                    <div class="col-md-4" style="padding-left: 4%;">
+                                        <img src="./imagens/visualizar.png" class="img-fluid rounded-start" alt="image">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="color: #486572;">Visualize suas Receitas/Cardápios</h5>
+                                            <br>
+                                            <p class="card-text" style="color: #737373;">Com essa funcionalidade você poderá visualizar suas receitas/cardápios podendo agrupa-las de acordo com sua classificação.</p>
+                                        </div>
+                                    </div>
+                                </div><br>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                        <img src="./imagens/SetaLeft.PNG" class="img-fluid rounded-start" alt="image">
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                        <img src="./imagens/SetaRight.PNG" class="img-fluid rounded-start" alt="image">
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div id="home-contract" class="container-fluid" style="padding-top: 10%; padding-bottom: 20%;">
+                <div class="row">
+                    <div class="col-lg-2 col-xl-2"></div>
+                    <div class="col-lg-8 col-xl8">
+                        <div class="row">
+                            <div class="col-lg-4 col-xl-4">
+                                <div class="card" style="background-color: #faf0e6; min-height: 400px;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title" style="color: #486572;"><u><b>BÁSICO</b></u></h5><br>
+                                        <p class="card-text text-start">&nbsp;&nbsp;Feito para pessoas normais que precisam de um local para guardar suas receitas, não possui a opção de compartilhamento de receita com outra pessoa.</p>
+                                    </div>
+                                    <div class="card-footer text-center border-0">
+                                        <button type="button" class="btn rounded-pill text-light" style="background-color: #03989e; color: #fffafa;">COMPRE GRÁTIS</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-xl-4">
+                                <div class="card" style="background-color: #faf0e6; min-height: 400px;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title" style="color: #486572;"><u><b>INTERMEDIÁRIO</b></u></h5><br>
+                                        <p class="card-text text-start">&nbsp;&nbsp;Feito para pessoas ou empresas que desejam criar cardápios ou compartilhar suas receitas e cardápios com outras pessoas, neste pacote não está incluso a opção dos clientes adicionarem os itens ao carrinho.</p>
+                                    </div>
+                                    <div class="card-footer text-center border-0">
+                                        <button type="button" class="btn rounded-pill text-light" style="background-color: #03989e; color: #fffafa;">COMPRE POR R$10,00 p/Mês</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-xl-4">
+                                <div class="card" style="background-color: #faf0e6; min-height: 400px;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title" style="color: #486572;"><u><b>AVANÇADO</b></u></h5><br>
+                                        <p class="card-text text-start">&nbsp;&nbsp;Feito para empresas que desejam compartilhar seus cardápios ou receitas com outras pessoas, neste pacote está incluso a opção dos clientes incluírem itens do cardápio em seu carrinho, visualizarem o preço total do pedido e realizarem o pedido. Este pedido irá ficar disponível na conta da empresa que poderá verificar o pedido feito pelo cliente e o seu código de identificação.</p>
+                                    </div>
+                                    <div class="card-footer text-center border-0">
+                                        <button type="button" class="btn rounded-pill text-light" style="background-color: #03989e; color: #fffafa;">COMPRE POR R$30,00 p/Mês</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-xl-2"></div>
+                </div>
+            </div>
+        </div>
+        <div id="home-footer" class="container-fluid" style="padding-bottom: 5%; margin-left: 0; margin-right: 0; background-color: #d9d9d9;">
+            <div class="row">
+                <div class="col-12 col-lg-3 col-xl-3">
+                    <img src="./imagens/logo2.PNG" class="img-fluid rounded-start" alt="image">
+                </div>
+                <div class="col-12 col-lg-3 col-xl-3" style="padding-top: 3%;">
+                    <img src="./imagens/whatsapp.png" style="width: 5%;" class="img-fluid rounded-start" alt="image">
+                    <label>(19) 9999-9999</label>
+                </div>
+                <div class="col-12 col-lg-3 col-xl-3" style="padding-top: 3%;">
+                    <img src="./imagens/outlook.png" style="width: 5%;" class="img-fluid rounded-start" alt="image">
+                    <label>foodGreat@outlook.com.br</label>
+                </div>
+                <div class="col-12 col-lg-3 col-xl-3" style="padding-top: 3%;">
+                    <img src="./imagens/telefone.png" style="width: 5%;" class="img-fluid rounded-start" alt="image">
+                    <label>(19) 3877-7777</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const multipleItemCarousel = $('#myCarousel');
+        var scrollPosition = 0;
+        
+        if(window.matchMedia("(min-width:576px)").matches){
+            $(".carousel-control-next").on('click', function(){
+                let carouselWidth = $('.carousel-inner')[0].scrollWidth;
+                let cardWidth = $('.carousel-item').width();
+
+                carouselNone(false)
+                if(scrollPosition < (carouselWidth - cardWidth * 3)){
+                    scrollPosition = scrollPosition + cardWidth;
+                    $('.carousel-inner').animate({scrollLeft: scrollPosition});
+                } else {
+                    carouselNone(true, ".carousel-control-next")
+                }
+            })
+
+            $(".carousel-control-prev").on('click', function(){
+                let carouselWidth = $('.carousel-inner')[0].scrollWidth;
+                let cardWidth = $('.carousel-item').width();
+                
+                carouselNone(false)
+                if(scrollPosition > 0){
+                    scrollPosition = scrollPosition - cardWidth;
+                    $('.carousel-inner').animate({scrollLeft: scrollPosition});
+                } else {
+                    carouselNone(true, ".carousel-control-prev")
+                }
+            })
+        } else {
+            carouselNone(false)
+            $(multipleItemCarousel).addClass('slide')
+        }
+
+    function carouselNone(carouselValue, carouselElement){
+        if(carouselValue){
+            $(carouselElement).addClass("d-none")
+        } else {
+            $(".carousel-control-next").removeClass("d-none")
+            $(".carousel-control-prev").removeClass("d-none")
+        }
+    }
+    </script>
+</body>
+</html>
