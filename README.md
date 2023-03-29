@@ -73,7 +73,7 @@ Feito para empresas que desejam compartilhar seus cardápios ou receitas com out
         A plataforma tem por objetivo possibilitar a criação de cardápios e receitas, tanto para empresas que pretendem deixar seu cardápio automatizado para seus clientes como também para usuários normais que pretendem descrever suas receitas ou até mesmo cardápios de dietas e afins.
         
     
-    ![Untitled](https://user-images.githubusercontent.com/47676873/228686404-3da51cdd-7a03-4962-94fa-267154a15b44.png)
+    ![Untitled (4)](https://user-images.githubusercontent.com/47676873/228687186-a18c4496-18d7-4b26-9c93-1b2ce6c85537.png)
     
     - Detalhamento dos recursos disponíveis
         
@@ -93,13 +93,12 @@ Feito para empresas que desejam compartilhar seus cardápios ou receitas com out
         
         Com essa funcionalidade você poderá visualizar suas receitas/cardápios podendo agrupa-las de acordo com sua classificação.
         
-        ![Untitled (1)](https://user-images.githubusercontent.com/47676873/228686469-557ad70c-e693-40cc-bf21-4f94fc126717.png)
+        ![Untitled](https://user-images.githubusercontent.com/47676873/228686404-3da51cdd-7a03-4962-94fa-267154a15b44.png)
         
     - Meios de Contratos
         
         Meios de contratos conforme os que já foram detalhados acima: básico, avançado e intermediário
-        
-        ![Untitled (2)](https://user-images.githubusercontent.com/47676873/228686496-06d4f03d-09d5-4664-b291-1f69b582c69b.png)
+        ![Untitled (1)](https://user-images.githubusercontent.com/47676873/228686469-557ad70c-e693-40cc-bf21-4f94fc126717.png)
         
     - Página toda
 ![Untitled (3)](https://user-images.githubusercontent.com/47676873/228687023-67477abd-50a5-48a0-b807-473bf6cbc176.png)
