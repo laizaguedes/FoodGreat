@@ -102,3 +102,4 @@ Feito para empresas que desejam compartilhar seus cardápios ou receitas com out
         ![Untitled (2)](https://user-images.githubusercontent.com/47676873/228686496-06d4f03d-09d5-4664-b291-1f69b582c69b.png)
         
     - Página toda
+![Untitled (3)](https://user-images.githubusercontent.com/47676873/228687023-67477abd-50a5-48a0-b807-473bf6cbc176.png)
